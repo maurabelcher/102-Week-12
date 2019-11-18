@@ -32,3 +32,6 @@ def ScoreFinder(list1,list2,string):
             return
     print("OUTPUT player not found")
     
+def Union(list1,list2):
+    joinedlist = list1 + list2
+    return joinedlist
