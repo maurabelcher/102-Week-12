@@ -19,3 +19,9 @@ def UpdateString(string1,string2,i):
             list1[i] = string2
         string3 += list1[index]
     return string3
+def FindWordCount(lst,string):
+    count = 0
+    for i in range(len(lst)):
+        if lst[i] == string:
+            count += 1
+    return count
