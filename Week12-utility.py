@@ -4,3 +4,10 @@
 
 def PrintOutput(word):
     print("OUTPUT", word)
+
+def LoadFile(string):
+    file = open(string, "r+")
+    lines = file.read()
+    li = lines.split()
+    return li
+
