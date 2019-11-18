@@ -11,3 +11,11 @@ def LoadFile(string):
     li = lines.split()
     return li
 
+def UpdateString(string1,string2,i):
+    list1 = list(string1)
+    string3 = ''
+    for index in range(len(list1)):
+        if index == i:
+            list1[i] = string2
+        string3 += list1[index]
+    return string3
