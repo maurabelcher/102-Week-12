@@ -35,3 +35,10 @@ def ScoreFinder(list1,list2,string):
 def Union(list1,list2):
     joinedlist = list1 + list2
     return joinedlist
+def Intersection(list1,list2):
+    list3 = []
+    for i in range(len(list1)):
+        for j in range(len(list2)):
+            if list1[i] == list2[j]:
+                list3.append(list1[i])
+    return list3
