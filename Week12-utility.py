@@ -25,3 +25,10 @@ def FindWordCount(lst,string):
         if lst[i] == string:
             count += 1
     return count
+def ScoreFinder(list1,list2,string):
+    for i in range(len(list1)):F
+        if list1[i] == string:
+            print("OUTPUT",string,"got a score of", list2[i])
+            return
+    print("OUTPUT player not found")
+    
